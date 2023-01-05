@@ -1,0 +1,654 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../lab1/">
+      
+      
+        <link rel="next" href="../lab3/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.2">
+    
+    
+      
+        <title>Лабораторная работа №2 - Лабораторные работы</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.f56500e0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no2" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Лабораторные работы" class="md-header__button md-logo" aria-label="Лабораторные работы" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Лабораторные работы
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Лабораторная работа №2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Лабораторные работы" class="md-nav__button md-logo" aria-label="Лабораторные работы" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Лабораторные работы
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Информация
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab1/" class="md-nav__link">
+        Лабораторная работа №1
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Лабораторная работа №2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Лабораторная работа №2
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    Вариант 5.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Реализация
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab3/" class="md-nav__link">
+        Лабораторная работа №3
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab3_pr/" class="md-nav__link">
+        Практическая работа №3.1
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    Вариант 5.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Реализация
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no2">Лабораторная работа №2</h1>
+<h3 id="5">Вариант 5.</h3>
+<p><strong>Список научных конференций</strong></p>
+<p>Необходимо реализовать следующий функционал:</p>
+<ul>
+<li>Регистрация новых пользователей.</li>
+<li>Просмотр конференций и регистрацию авторов для выступлений.
+Пользователь должен иметь возможность редактирования и удаления своих
+регистраций.</li>
+<li>Написание отзывов к конференциям. При добавлении комментариев,
+должны сохраняться даты конференции, текст комментария, рейтинг (1-10),
+информация о комментаторе.</li>
+<li>Администратор должен иметь возможность указания результатов
+выступления (рекомендован к публикации или нет) средствами Django-
+admin. </li>
+<li>В клиентской части должна формироваться таблица, отображающая всех
+участников по конференциям.</li>
+</ul>
+<h3 id="_1">Реализация</h3>
+<ul>
+<li><code>models.py</code></li>
+</ul>
+<pre><code class="language-python">from django.db import models
+from django.contrib.auth.models import AbstractUser
+from django.conf import settings
+
+class User(AbstractUser):
+    username = models.CharField(max_length=30, unique=True)
+    password = models.CharField(max_length=30)
+    # фамилия
+    surname = models.CharField(max_length=30)
+    # отчество
+    lastname = models.CharField(max_length=30)
+    passport = models.CharField(max_length=10, blank=True, null=True)
+
+    def __str__(self):
+        return self.username
+
+
+class Conference(models.Model):
+    members = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='members')
+    name = models.CharField(max_length=200)
+    date = models.DateField()
+
+    def __str__(self):
+        return self.name
+
+
+class Comment(models.Model):
+    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True)
+    conference = models.ForeignKey(Conference, on_delete=models.SET_NULL, null=True)
+    rating = models.IntegerField(choices=[(i, i) for i in range(1, 10)])
+    text = models.CharField(max_length=400, blank=True, null=True)
+    created = models.DateTimeField(auto_now_add=True)
+    def __str__(self):
+        return self.text
+</code></pre>
+<ul>
+<li><code>views.py</code></li>
+</ul>
+<pre><code class="language-python">from django.contrib import messages
+from django.contrib.auth import login, logout
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views.generic import FormView, ListView, CreateView, DeleteView, DetailView
+
+from django.shortcuts import render, redirect
+
+from .models import *
+from .forms import *
+
+
+class LoginView(FormView):
+    form_class = UserLoginForm
+    template_name = 'login.html'
+
+    def post(self, request, *args, **kwargs):
+
+        print(request.POST)
+        form = UserLoginForm(data=request.POST)
+
+        if form.is_valid():
+            print('valid')
+            user = form.get_user()
+            login(request, user)
+            return redirect('conflist_route')
+        else:
+            print('not valid')
+            messages.error(request, 'Указаны неверные данные')
+
+        return redirect('login_route')
+
+    def get(self, request, *args, **kwargs):
+        if request.user.is_authenticated:
+            return redirect('conflist_route')
+        else:
+            return render(request, 'login.html')
+
+
+def logout_view(request):
+    logout(request)
+    return redirect('login_route')
+
+
+class SignupView(FormView):
+    form_class = UserRegisterForm
+    template_name = 'signup.html'
+
+    def post(self, request, *args, **kwargs):
+        form = UserRegisterForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            # login(request, user)
+            messages.success(request, 'Успешная регистрация')
+            return redirect('login_route')
+        else:
+            if User.objects.filter(username=request.POST['username']).exists():
+                messages.error(request, 'Пользователь с таким именем уже зарегистрирован')
+            else:
+                messages.error(request, 'Ошибка регистрации')
+
+        return redirect('signup_route')
+
+
+class ConferenceView(LoginRequiredMixin, ListView):
+    model = Conference
+    template_name = 'conference_list.html'
+    context_object_name = 'conferences'
+
+@login_required
+def join_or_leave_conf_view(request, conf_pk, user_pk):
+    conf = Conference.objects.get(pk=conf_pk)
+    user = User.objects.get(pk=user_pk)
+
+    if user in conf.members.all():
+        conf.members.remove(user)
+    else:
+        conf.members.add(user)
+
+    return redirect('conflist_route')
+
+
+@login_required
+def user_confs_view(request, username):
+    all_confs = Conference.objects.all()
+    user_confs = []
+
+    for conf in all_confs:
+        if request.user in conf.members.all():
+            user_confs.append(conf)
+
+    return render(request, 'user_confs.html', {'user_confs': user_confs})
+
+
+class DetailConfView(LoginRequiredMixin, DetailView):
+    model = Conference
+    template_name = 'detail_conference.html'
+    context_object_name = 'conf'
+    pk_url_kwarg = 'conf_pk'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        conf_pk = self.kwargs['conf_pk']
+        comments = Comment.objects.filter(conference__pk=conf_pk).order_by('-created')
+        context['comments'] = comments
+        return context
+
+
+@login_required
+def comment_view(request, conf_pk):
+    user_obj = User.objects.get(pk=request.user.pk)
+    conference = Conference.objects.get(pk=conf_pk)
+
+    comment_text = request.POST['comment_text']
+
+    if str(comment_text).isspace():
+        messages.error(request, 'Комментарий не может быть пустым')
+    else:
+        comment_obj = Comment.objects.create(
+            author=user_obj,
+            conference=conference,
+            rating=0,
+            text=comment_text
+        )
+
+    return redirect('detail_conf_route', conf_pk=conf_pk)
+
+
+@login_required
+def remove_comment_view(request, conf_pk, comment_pk):
+    comment_obj = Comment.objects.get(pk=comment_pk).delete()
+    return redirect('detail_conf_route', conf_pk=conf_pk)
+
+
+@login_required
+def conf_members_view(request, conf_pk):
+    conference = Conference.objects.get(pk=conf_pk)
+    members = conference.members.all()
+    context = {
+        'members': members,
+        'conf': conference
+    }
+    return render(request, 'conf_members.html', context)
+</code></pre>
+<ul>
+<li><code>forms.py</code></li>
+</ul>
+<pre><code class="language-python">from .models import *
+from django import forms
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+
+class UserLoginForm(AuthenticationForm):
+    username = forms.CharField(label='Имя пользователя', widget=forms.TextInput(attrs={'class': 'form-control'})),
+    password = forms.CharField(label='Пароль', widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+
+
+class UserRegisterForm(UserCreationForm):
+    username = forms.CharField(label='Имя пользователя'),
+    surname = forms.CharField(label='Фамилия'),
+    lastname = forms.CharField(label='Отчество'),
+    password1 = forms.CharField(label='Пароль'),
+    password2 = forms.CharField(label='Подтверждение пароля')
+
+    class Meta:
+        model = User
+        fields = ('username', 'surname', 'lastname', 'password1', 'password2')
+</code></pre>
+<ul>
+<li><code>urls.py</code></li>
+</ul>
+<pre><code class="language-python">from django.urls import path
+
+from .views import *
+
+urlpatterns = [
+    path('', LoginView.as_view(), name='login_route'),
+    path('signup', SignupView.as_view(), name='signup_route'),
+    path('conflist', ConferenceView.as_view(), name='conflist_route'),
+
+    path('logout', logout_view, name='logout_route'),
+    path('join_conf/&lt;int:conf_pk&gt;/&lt;int:user_pk&gt;/', join_or_leave_conf_view, name='join_or_leave_conf_route'),
+    path('user_confs/&lt;str:username&gt;/', user_confs_view, name='user_confs_route'),
+
+    path('conf/&lt;int:conf_pk&gt;/', DetailConfView.as_view(), name='detail_conf_route'),
+
+    path('comment/create/&lt;int:conf_pk&gt;/', comment_view, name='add_comment_route'),
+    path('comment/delete/&lt;int:conf_pk&gt;/&lt;int:comment_pk&gt;/', remove_comment_view, name='remove_comment_route'),
+    path('conf/&lt;int:conf_pk&gt;/members', conf_members_view, name='conf_members_route')
+]
+</code></pre>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.12658920.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5cf534bf.min.js"></script>
+      
+    
+  </body>
+</html>

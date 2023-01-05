@@ -1,0 +1,544 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../lab3/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.2">
+    
+    
+      
+        <title>Практическая работа №3.1 - Лабораторные работы</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.f56500e0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no-31" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Лабораторные работы" class="md-header__button md-logo" aria-label="Лабораторные работы" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Лабораторные работы
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Практическая работа №3.1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Лабораторные работы" class="md-nav__button md-logo" aria-label="Лабораторные работы" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Лабораторные работы
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Информация
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab1/" class="md-nav__link">
+        Лабораторная работа №1
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab2/" class="md-nav__link">
+        Лабораторная работа №2
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab3/" class="md-nav__link">
+        Лабораторная работа №3
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Практическая работа №3.1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Практическая работа №3.1
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#311" class="md-nav__link">
+    Задание 3.1.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#312" class="md-nav__link">
+    Задание 3.1.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#313" class="md-nav__link">
+    Задание 3.1.3
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#311" class="md-nav__link">
+    Задание 3.1.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#312" class="md-nav__link">
+    Задание 3.1.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#313" class="md-nav__link">
+    Задание 3.1.3
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no-31">Практическая работа № 3.1</h1>
+<h2 id="311">Задание 3.1.1</h2>
+<ul>
+<li><code>models.py</code></li>
+</ul>
+<pre><code class="language-python">class CarOwner(AbstractUser):
+    id_owner = models.IntegerField(primary_key = True)
+    last_name = models.CharField(max_length = 30, null = False)
+    first_name = models.CharField(max_length = 30, null = False)
+    birth_day = models.DateField(null = True)
+    passport = models.IntegerField(null=True)
+    address = models.CharField(max_length=50, null=True, blank=True)
+    nationality = models.CharField(max_length=20, null=True, blank=True)
+
+class Car(models.Model):
+    id_car = models.IntegerField(primary_key=True)
+    state_number = models.CharField(max_length=15, null=False)
+    mark_car = models.CharField(max_length=20, null=False)
+    model_car = models.CharField(max_length=20, null=False)
+    color = models.CharField(max_length=30, null=False)
+
+
+class Ownership(models.Model):
+    id_owner_car = models.IntegerField(primary_key=True)
+    id_owner = models.ForeignKey(CarOwner, on_delete=models.CASCADE)
+    id_car = models.ForeignKey(Car, on_delete=models.CASCADE)
+    start_date = models.DateField()
+    end_date = models.DateField(null=True)
+
+
+class DriverLicense(models.Model):
+    id_license = models.IntegerField(primary_key=True)
+    id_owner = models.ForeignKey(CarOwner, on_delete=models.CASCADE)
+    license_number = models.CharField(max_length=10, null=False)
+    type = models.CharField(max_length=10, null=False)
+    date_of_license = models.DateField()
+</code></pre>
+<p><strong>Создание сущностей</strong></p>
+<p><strong>Создание автовладельцев</strong></p>
+<pre><code>Car_owner(id_owner=1, last_name='LN1', first_name'FN1', birth_name='1990-01-1').save()
+Car_owner(id_owner=2, last_name='LN2', first_name'FN2', birth_name='1990-01-2').save()
+Car_owner(id_owner=3, last_name='LN3', first_name'FN3', birth_name='1990-01-3').save()
+Car_owner(id_owner=4, last_name='LN4', first_name'FN4', birth_name='1990-01-4').save()
+Car_owner(id_owner=5, last_name='LN5', first_name'FN5', birth_name='1990-01-5').save()
+Car_owner(id_owner=6, last_name='LN6', first_name'FN6', birth_name='1990-01-6').save()
+
+for i in Car_owner.objects.all():
+    ...:     print(i.first_name)
+    ...: 
+FN1
+FN1
+FN1
+FN1
+FN1
+FN1
+</code></pre>
+<p><strong>Создание автомобилей</strong></p>
+<pre><code>Car(id_car=1, state_number='a001aa', mark_car='BMW', model_car='Model1', color='green').save()
+Car(id_car=2, state_number='a002aa', mark_car='BMW', model_car='Model2', color='green').save()
+Car(id_car=3, state_number='a003aa', mark_car='BMW', model_car='Model3', color='blue').save()
+Car(id_car=4, state_number='a004aa', mark_car='BMW', model_car='Model4', color='green').save()
+Car(id_car=5, state_number='a005aa', mark_car='BMW', model_car='Model5', color='green').save()
+Car(id_car=6, state_number='a006aa', mark_car='BMW', model_car='Model6', color='green').save()
+</code></pre>
+<p><strong>Создание водительских удостоверений</strong></p>
+<pre><code>Driver_license(1, 1, '123', 'A', '2010-01-01').save()
+Driver_license(2, 2, '3214', 'B', '2011-01-02').save()
+Driver_license(3, 3, '41421', 'C', '2012-01-03').save()
+Driver_license(4, 4, '3212', 'A', '2013-01-04').save()
+Driver_license(5, 5, '158143', 'B', '2014-01-05').save()
+Driver_license(6, 6, '932188', 'C', '2015-01-06').save()
+</code></pre>
+<p><strong>Создание связи владения</strong></p>
+<pre><code>Ownerdhip(1, 1, 1, '2011-01-01', '2012-01-01').save()
+Ownerdhip(2, 2, 2, '2012-01-01', '2013-01-01').save()
+Ownerdhip(3, 3, 3, '2013-01-01', '2014-01-01').save()
+Ownerdhip(4, 4, 4, '2014-01-01', '2015-01-01').save()
+Ownerdhip(5, 5, 5, '2015-01-01', '2016-01-01').save()
+Ownerdhip(6, 6, 6, '2016-01-01', '2017-01-01').save()
+</code></pre>
+<h2 id="312">Задание 3.1.2</h2>
+<p>Описание: по созданным в пр.1 данным написать следующие запросы на фильтрацию:</p>
+<p><strong>Запрос 1</strong></p>
+<p>Выведете все машины марки “BMV” (или любой другой марки, которая у вас есть):</p>
+<pre><code>Car.objects.filter(mark_car=&quot;BMV&quot;)
+</code></pre>
+<p><strong>Запрос 2</strong></p>
+<p>Найти всех водителей с именем “Олег” (или любым другим именем на ваше усмотрение):</p>
+<pre><code> Car_owner.objects.filter(first_name=&quot;FN1&quot;)
+</code></pre>
+<p><strong>Запрос 3</strong></p>
+<p>Взяв любого случайного владельца получить его id, и по этому id получить экземпляр удостоверения в виде объекта модели (можно в 2 запроса):</p>
+<pre><code>take_id = Car_owner.objects.all()[3].id_owner
+Driver_license.objects.get(id_owner=take_id)
+</code></pre>
+<p><strong>Запрос 4</strong></p>
+<p>Вывести всех владельцев красных машин (или любого другого цвета, который у вас присутствует):</p>
+<pre><code>CarOwner.objects.filter(ownership__id__car__color=&quot;green&quot;)
+</code></pre>
+<p><strong>Запрос 5</strong></p>
+<p>Найти всех владельцев, чей год владения машиной начинается с 2010 (или любой другой год, который присутствует у вас в базе):</p>
+<pre><code>Ownerdhip.objects.filter(start_date__gte=&quot;2013-01-01&quot;)
+</code></pre>
+<h2 id="313">Задание 3.1.3</h2>
+<p><strong>Запрос 1</strong></p>
+<p>Вывод даты выдачи самого старшего водительского удостоверения:</p>
+<pre><code>from django.db.models import Min, Max
+
+Driver_license.objects.aggregate(date_of_license=Min(&quot;date_of_license&quot;))
+</code></pre>
+<p><strong>Запрос 2</strong></p>
+<p>Укажите самую позднюю дату владения машиной, имеющую какую-то из существующих моделей в вашей базе:</p>
+<pre><code>Ownerdhip.objects.aggregate(start_date=Max(&quot;start_date&quot;))
+</code></pre>
+<p><strong>Запрос 3</strong></p>
+<p>Выведите количество машин для каждого водителя:</p>
+<pre><code>from django.db.models import Count
+
+Ownerdhip.objects.values(&quot;id_owner&quot;).annotate(Count(&quot;id_car&quot;))
+</code></pre>
+<p><strong>Запрос 4</strong></p>
+<p>Подсчитайте количество машин каждой марки:</p>
+<pre><code>Car.objects.values(&quot;mark_car&quot;).annotate(Count(&quot;id_car&quot;))
+</code></pre>
+<p><strong>Запрос 5</strong></p>
+<p>Отсортируйте всех автовладельцев по дате выдачи удостоверения:</p>
+<pre><code>Car_owner.objects.order_by(&quot;driver_license__date_of_license&quot;)
+</code></pre>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.12658920.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5cf534bf.min.js"></script>
+      
+    
+  </body>
+</html>
